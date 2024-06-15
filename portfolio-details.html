@@ -5,75 +5,49 @@
   <meta charset="utf-8">
   <meta content="width=device-width, initial-scale=1.0" name="viewport">
 
-  <title>Praphul Thakur - PortFolio</title>
+  <title>Praphul Thakur - Portfolio</title>
   <meta content="" name="description">
   <meta content="" name="keywords">
 
-
   <link href="assets/img/favicon.png" rel="icon">
   <link href="assets/img/apple-touch-icon.png" rel="apple-touch-icon">
-
 
   <link href="assets/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
   <link href="assets/vendor/bootstrap-icons/bootstrap-icons.css" rel="stylesheet">
   <link href="assets/vendor/glightbox/css/glightbox.min.css" rel="stylesheet">
   <link href="assets/vendor/swiper/swiper-bundle.min.css" rel="stylesheet">
 
-
   <link href="assets/css/style.css" rel="stylesheet">
-
-
 </head>
 
 <body>
-
-
+  
   <header id="header" class="fixed-top">
     <div class="container d-flex align-items-center justify-content-between">
-
-      <h1 class="logo"><a href="index.html">PortFolio</a></h1>
-
-
+      <h1 class="logo"><a href="index.html">Portfolio</a></h1>
       <nav id="navbar" class="navbar">
         <ul>
-          <li><a class="nav-link scrollto " href="/index.html">Home</a></li>
-          <li><a class="nav-link scrollto" href="/index.html">About</a></li>
-
-          <li><a class="nav-link scrollto " href="/portfolio-details.html">Work</a></li>
-          <li><a class="nav-link scrollto " href="/blog-single.html">Blog</a></li>
-          <li class="dropdown"><a href="#"><span>Drop Down</span> <i class="bi bi-chevron-down"></i></a>
-            <ul>
-              <li><a href="#">Drop Down 1</a></li>
-              <li class="dropdown"><a href="#"><span>Deep Drop Down</span> <i class="bi bi-chevron-right"></i></a>
-                <ul>
-                  <li><a href="#">Deep Drop Down 1</a></li>
-                  <li><a href="#">Deep Drop Down 2</a></li>
-                  <li><a href="#">Deep Drop Down 3</a></li>
-                  <li><a href="#">Deep Drop Down 4</a></li>
-                  <li><a href="#">Deep Drop Down 5</a></li>
-                </ul>
-              </li>
-              <li><a href="#">Drop Down 2</a></li>
-              <li><a href="#">Drop Down 3</a></li>
-              <li><a href="#">Drop Down 4</a></li>
-            </ul>
-          </li>
+          <li><a class="nav-link scrollto" href="index.html">Home</a></li>
+          <li><a class="nav-link scrollto" href="index.html">About</a></li>
+          <li><a class="nav-link scrollto" href="portfolio-details.html">Work</a></li>
+          <li><a class="nav-link scrollto" href="blog-single.html">Blog</a></li>
+          
           <li><a class="nav-link scrollto" href="#contact">Contact</a></li>
         </ul>
         <i class="bi bi-list mobile-nav-toggle"></i>
       </nav>
-
     </div>
   </header>
-  <div class="hero hero-single route bg-image" style="background-image: url(assets/img/overlay-bg.jpg)">
+
+  <div class="hero hero-single route bg-image" >
     <div class="overlay-mf"></div>
-    <div class="hero-content display-table">
-      <div class="table-cell">
-        <div class="container">
-          <h2 class="hero-title mb-4">Portfolio Details</h2>
+    <div class="hero-content display-table" style="background-image: url('9-Best-Press-Page-Examples-for-all-types-Media-Coverage-Blog-Banner-1250x500.png');">
+      <div class="table-cell" >
+        <div class="container" >
+          <h2 class="hero-title mb-4" >Portfolio Details</h2>
           <ol class="breadcrumb d-flex justify-content-center">
             <li class="breadcrumb-item">
-              <a href="#">Home</a>
+              <a href="index.html">Home</a>
             </li>
             <li class="breadcrumb-item active">Portfolio Details</li>
           </ol>
@@ -81,121 +55,216 @@
       </div>
     </div>
   </div>
+  
 
   <main id="main">
-
-
     <section id="portfolio-details" class="portfolio-details">
       <div class="container">
-
         <div class="row gy-4">
-
           <div class="col-lg-8">
             <div class="portfolio-details-slider swiper">
               <div class="swiper-wrapper align-items-center">
-
-                <div class="swiper-slide">
-                  <img src="main_creenshot.png" alt="">
-                  <div class="col-lg-4">
-                    <div class="portfolio-info">
-                      <h3>Project information</h3>
-                      <ul>
-                        <li><strong>Category</strong>: Employee Manangemnent System (CRUD)</li>
-                        <li><strong>Client</strong>: Company</li>
-                        <li><strong>Project date</strong>: 30 January, 2022</li>
-                        <li><strong>Project URL</strong>: <a
-                            href="#">https://github.com/praphul6/Employee-managment-system-crud-.git</a></li>
-                      </ul>
-                    </div>
-                    <div class="portfolio-description">
-                      <h2>Here Is Project Details</h2>
-                      <p></br>
-                        Employee-managment-system--crud-</br>
-                        This repository consists of Java Program for Employee Management System. In this repository I
-                        have created a TUI program for Employee Management System which consists of 4 different
-                        operation. </br>(1) Adding User </br>(2) Removing User </br>(3) Updating User </br>(4) Viewing
-                        details of User
-                        </br>
-                        How to Run ? </br> </br>
-                        For Compliation : javac EmployManagementSystem.java
-                        </br>
-                        To Run Program : java EmployManagementSystem
-                      </p>
+  
+                <!-- Portfolio Item 1: Mailbox Client -->
+                <div id="portfolio-item-1" class="swiper-slide">
+                  <div class="work-img">
+                    <img src="Mailbox.png" alt="Mailbox Client" class="img-fluid">
+                  </div>
+                  <div class="work-content">
+                    <div class="row">
+                      <div class="col-sm-8">
+                        <h2 class="w-title"><b>Mailbox Client</b></h2>
+                        <p>
+                          HTML, CSS, JS, ReactJS, Redux
+                          <br><br>
+                          Implemented efficient GET, POST, and PUT requests to Firebase, resulting in a 30 percent reduction in data retrieval time for user-specific information.
+                          <br><br>
+                          Mailbox client is an application where users can send and receive mail. Each user has their own account. Sent items and inbox are maintained separately at the backend.
+                          <br><br>
+                          Key Features:
+                          <ul>
+                            <li>Real-time messaging with Firebase</li>
+                            <li>Responsive design for mobile and desktop views</li>
+                            <li>Authentication and authorization using Firebase Auth</li>
+                            <li>Interactive UI with ReactJS and Redux</li>
+                          </ul>
+                        </p>
+                        <div class="w-more">
+                          <span class="w-ctegory">Web Application</span> / <span class="w-date">Details to be provided</span>
+                        </div>
+                      </div>
+                      <div class="col-sm-4">
+                        <div class="w-like">
+                          <a href="#portfolio-item-1"><span class="bi bi-plus-circle"></span></a>
+                        </div>
+                      </div>
                     </div>
                   </div>
                 </div>
-                <div class="swiper-slide">
-                  <img src="Weaher App.jpeg" alt="">
-                  <div class="col-lg-4">
-                    <div class="portfolio-info">
-                      <h3>Project information</h3>
-                      <ul>
-                        <li><strong>Category</strong>: Weather Application</li>
-                        <li><strong>User</strong>: Company</li>
-                        <li><strong>Project date</strong>: 30 January, 2022</li>
-                        <li><strong>Project URL</strong>: <a href="#">https://github.com/praphul6/weatherApp.git</a>
-                        </li>
-                      </ul>
-                    </div>
-                    <div class="portfolio-description">
-                      <h2>This is the project Details</h2>
-                      <p>
-                        The weather app also provides atmospheric pressure, weather conditions, visibility distance,
-                        relative humidity, precipitation in different unites, dew point, wind speed and direction, in
-                        addition to ten days in future and hourly weather forecast. Realtime temperature, humidity,
-                        pressure and wind direction are all in the weather app based.
-                      </p>
+  
+                <!-- Portfolio Item 2: E-commerce Website -->
+                <div id="portfolio-item-2" class="swiper-slide">
+                  <div class="work-img">
+                    <img src="ecomerce.png" alt="E-commerce Website" class="img-fluid">
+                  </div>
+                  <div class="work-content">
+                    <div class="row">
+                      <div class="col-sm-8">
+                        <h2 class="w-title"><b>E-commerce Website</b></h2>
+                        <p>
+                          HTML, CSS, JS, ReactJS, React Hooks
+                          <br><br>
+                          Built an E-commerce application enabling seamless product exploration and cart manipulation. Worked on user authentication, resulting in increased user data security.
+                          <br><br>
+                          Empowered administrators with exclusive product management control and streamlined order oversight for a user-centric shopping experience.
+                          <br><br>
+                          Key Features:
+                          <ul>
+                            <li>Secure payment gateway integration</li>
+                            <li>Product search and filtering options</li>
+                            <li>User reviews and ratings</li>
+                            <li>Admin panel for managing products and orders</li>
+                            <li>Real-time inventory management</li>
+                            <li>Personalized recommendations based on user behavior</li>
+                            <li>Responsive design for optimal viewing on any device</li>
+                          </ul>
+                        </p>
+                        <div class="w-more">
+                          <span class="w-ctegory">Web Development</span> / <span class="w-date">Details to be provided</span>
+                        </div>
+                      </div>
+                      <div class="col-sm-4">
+                        <div class="w-like">
+                          <a href="#portfolio-item-2"><span class="bi bi-plus-circle"></span></a>
+                        </div>
+                      </div>
                     </div>
                   </div>
                 </div>
-
-                <div class="swiper-slide">
-                  <img src="quiz.jpeg" alt="">
-                  <div class="col-lg-4">
-                    <div class="portfolio-info">
-                      <h3>Project information</h3>
-                      <ul>
-                        <li><strong>Category</strong>: Quiz App</li>
-                        <li><strong>Client</strong>: Student</li>
-                        <li><strong>Project date</strong>: 30 January, 2022</li>
-                        <li><strong>Project URL</strong>: <a
-                            href="#">https://github.com/praphul6/MCQ-Quiz-system.git</a></li>
-                      </ul>
-                    </div>
-                    <div class="portfolio-description">
-                      <h2>This is Project Details</h2>
-                      <p>
-                        A simple Quiz App that contains a set of curated questions and its answers and checks for the
-                        correctness of the answer given by the user. It navigates through the questions using dynamic
-                        programming.
-                      </p>
+  
+                <!-- Portfolio Item 3: TextUtils App -->
+                <div id="portfolio-item-3" class="swiper-slide">
+                  <div class="work-img">
+                    <img src="textutils.png" alt="TextUtils App" class="img-fluid">
+                  </div>
+                  <div class="work-content">
+                    <div class="row">
+                      <div class="col-sm-8">
+                        <h2 class="w-title"><b>Text Converter - TextUtils App</b></h2>
+                        <p>
+                          HTML, CSS, JavaScript, ReactJS, React Hooks
+                          <br><br>
+                          TextUtils is a simple and user-friendly text manipulation tool built with React. It allows you to easily convert text to uppercase, lowercase, and remove spaces along with some additional functionalities. Built a responsive frontend design resulting in a reduction in bounce rates and improved accessibility across various devices.
+                          <br><br>
+                          Key Features:
+                          <ul>
+                            <li>Convert text to uppercase/lowercase</li>
+                            <li>Remove extra spaces from text</li>
+                            <li>Word and character count</li>
+                            <li>Preview and formatting options</li>
+                            <li>Dark and light mode support</li>
+                            <li>Responsive design for mobile and desktop views</li>
+                          </ul>
+                        </p>
+                        <div class="w-more">
+                          <span class="w-ctegory">Web Application</span> / <span class="w-date">Details to be provided</span>
+                        </div>
+                      </div>
+                      <div class="col-sm-4">
+                        <div class="w-like">
+                          <a href="#portfolio-item-3"><span class="bi bi-plus-circle"></span></a>
+                        </div>
+                      </div>
                     </div>
                   </div>
                 </div>
-
+  
+                <!-- Portfolio Item 4: Food Delivery App -->
+                <div id="portfolio-item-4" class="swiper-slide">
+                  <div class="work-img">
+                    <img src="foodapp.png" alt="Food Delivery App" class="img-fluid">
+                  </div>
+                  <div class="work-content">
+                    <div class="row">
+                      <div class="col-sm-8">
+                        <h2 class="w-title"><b>Food Delivery App</b></h2>
+                        <p>
+                          HTML, CSS, JS, ReactJS
+                          <br><br>
+                          Developed a robust food delivery application that connects users with local restaurants and food vendors. Implemented a seamless user interface to enhance the overall user experience.
+                          <br><br>
+                          Key Features:
+                          <ul>
+                            <li>Real-time order tracking</li>
+                            <li>Secure payment gateway integration</li>
+                            <li>Interactive restaurant menus with detailed descriptions and images</li>
+                            <li>User authentication and profile management</li>
+                            <li>Admin dashboard for managing orders and user data</li>
+                            <li>Push notifications for order updates</li>
+                            <li>Responsive design for mobile and desktop views</li>
+                          </ul>
+                        </p>
+                        <div class="w-more">
+                          <span class="w-ctegory">Web Application</span> / <span class="w-date">15 Mar. 2023</span>
+                        </div>
+                      </div>
+                      <div class="col-sm-4">
+                        <div class="w-like">
+                          <a href="#portfolio-item-4"><span class="bi bi-plus-circle"></span></a>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+  
+                <!-- Portfolio Item 5: Expense Tracker -->
+                <div id="portfolio-item-5" class="swiper-slide">
+                  <div class="work-img">
+                    <img src="expansetraker.png" alt="Expense Tracker" class="img-fluid">
+                  </div>
+                  <div class="work-content">
+                    <div class="row">
+                      <div class="col-sm-8">
+                        <h2 class="w-title"><b>Expense Tracker</b></h2>
+                        <p>
+                          HTML, CSS, JS, ReactJS, Redux, Firebase
+                          <br><br>
+                          Developed a comprehensive expense tracking application that allows users to monitor and manage their finances effectively. Integrated with Firebase for real-time data management and Redux for state management.
+                          <br><br>
+                          Key Features:
+                          <ul>
+                            <li>Add, edit, and delete expense entries</li>
+                            <li>Real-time data synchronization with Firebase</li>
+                            <li>Monthly and yearly expense summaries</li>
+                            <li>Category-wise expense tracking</li>
+                            <li>User authentication and profile management</li>
+                            <li>Responsive design for optimal viewing on mobile and desktop</li>
+                            <li>Interactive charts and graphs for visualizing expenses</li>
+                          </ul>
+                        </p>
+                        <div class="w-like">
+                          <a href="#portfolio-item-5"><span class="bi bi-plus-circle"></span></a>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
               </div>
+  
               <div class="swiper-pagination"></div>
             </div>
           </div>
-
-
-
         </div>
-
       </div>
     </section>
-
   </main>
+
   <footer>
     <div class="container">
       <div class="row">
         <div class="col-sm-12">
           <div class="copyright-box">
-            <p class="copyright">&copy; Copyright <strong>PortFolio</strong>. All Rights Reserved</p>
-            <div class="credits">
-
-
-            </div>
+            <p class="copyright">&copy; Copyright <strong>Portfolio</strong>. All Rights Reserved</p>
           </div>
         </div>
       </div>
@@ -203,9 +272,7 @@
   </footer>
 
   <div id="preloader"></div>
-  <a href="#" class="back-to-top d-flex align-items-center justify-content-center"><i
-      class="bi bi-arrow-up-short"></i></a>
-
+  <a href="#" class="back-to-top d-flex align-items-center justify-content-center"><i class="bi bi-arrow-up-short"></i></a>
 
   <script src="assets/vendor/purecounter/purecounter_vanilla.js"></script>
   <script src="assets/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
@@ -213,8 +280,6 @@
   <script src="assets/vendor/swiper/swiper-bundle.min.js"></script>
   <script src="assets/vendor/typed.js/typed.min.js"></script>
   <script src="assets/vendor/php-email-form/validate.js"></script>
-
-
   <script src="assets/js/main.js"></script>
 
 </body>
