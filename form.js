@@ -1,6 +1,9 @@
 (function () {
     "use strict";
   
+
+
+    
     document.addEventListener('DOMContentLoaded', function () {
       let forms = document.querySelectorAll('.php-email-form');
   
