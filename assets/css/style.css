@@ -7,8 +7,7 @@ body {
   color: #333; /* Dark grey text for better readability */
   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; /* Modern and clean font */
   line-height: 1.6; /* Improve readability */
-  margin: 0;
-  padding: 0;
+
 }
 
 h1,
@@ -751,6 +750,7 @@ a:hover {
   color: #fff;
   background-size: cover;
   background-position: center;
+  
 }
 
 .hero .overlay-intro {
@@ -903,17 +903,19 @@ a:hover {
 .about-mf {
   padding-top: 6rem; /* Increased top padding for spacing */
   padding-bottom: 6rem; /* Increased bottom padding for spacing */
-  background-color: #f8f9fa; /* Light background color */
-    border: 1px solid #e1e1e1; /* Light gray border */
-  border-radius: 10px; /* Rounded corners */
+  background-color:#eaeaea;
+  border: 1px solid #bac5dd /* Light gray border */
+  
+
 }
 
 /* White box with shadow */
 .about-mf .box-shadow-full {
-  background-color: #ffffff; /* White background */
+
   padding: 2rem;
-  border-radius: 15px; /* Rounded corners */
-  box-shadow: 0px 10px 30px rgba(0, 0, 0, 0.1); /* Soft shadow */
+
+  border: 1px solid hsl(0, 1%, 74%); /* Light gray border */
+  border-radius: 10px; /* Rounded corners */
 }
 
 /* Image styling */
@@ -1570,6 +1572,131 @@ a.portfolio-lightbox:hover {
   }
 }
 
+/* Personal Traits and Interests Section */
+.traits-interests-mf {
+  padding: 60px 0;
+  margin-top: 20px;
+
+  color: #333;
+  transition: all 0.3s ease-in-out;
+}
+
+
+
+.traits-interests-mf .title-box {
+  margin-bottom: 40px;
+}
+
+.traits-interests-mf .title-box .title-a {
+  font-size: 32px;
+  font-weight: bold;
+  color: #1e1e1e;
+}
+
+.traits-interests-mf .line-mf {
+  width: 80px;
+  height: 5px;
+  background-color: #007bff;
+  margin: 0 auto;
+  margin-top: 10px;
+  margin-bottom: 20px;
+}
+
+.traits-interests-mf h4 {
+  font-size: 24px;
+  color: #2c3e50;
+  margin-bottom: 20px;
+}
+
+.traits-interests-mf p {
+  font-size: 18px;
+  line-height: 1.8;
+  margin-bottom: 20px;
+}
+
+/* Goals and Aspirations Section */
+.goals-aspirations-mf {
+  padding: 60px 0;
+
+  color: #333;
+  transition: all 0.3s ease-in-out;
+}
+
+
+
+.goals-aspirations-mf .title-box {
+  margin-bottom: 40px;
+}
+
+.goals-aspirations-mf .title-box .title-a {
+  font-size: 32px;
+  font-weight: bold;
+  color: #1e1e1e;
+}
+
+.goals-aspirations-mf .line-mf {
+  width: 80px;
+  height: 5px;
+  background-color: #007bff;
+  margin: 0 auto;
+  margin-top: 10px;
+  margin-bottom: 20px;
+}
+
+.goals-aspirations-mf h4 {
+  font-size: 24px;
+  color: #2c3e50;
+  margin-bottom: 20px;
+}
+
+.goals-aspirations-mf p {
+  font-size: 18px;
+  line-height: 1.8;
+  margin-bottom: 20px;
+}
+
+/* Responsive adjustments */
+@media (max-width: 768px) {
+  .traits-interests-mf, .goals-aspirations-mf {
+    padding: 30px 20px;
+  }
+
+  .traits-interests-mf .title-box .title-a, 
+  .goals-aspirations-mf .title-box .title-a {
+    font-size: 28px;
+  }
+
+  .traits-interests-mf h4, 
+  .goals-aspirations-mf h4 {
+    font-size: 22px;
+  }
+
+  .traits-interests-mf p, 
+  .goals-aspirations-mf p {
+    font-size: 16px;
+  }
+}
+
+@media (max-width: 576px) {
+  .traits-interests-mf, .goals-aspirations-mf {
+    padding: 20px 15px;
+  }
+
+  .traits-interests-mf .title-box .title-a, 
+  .goals-aspirations-mf .title-box .title-a {
+    font-size: 24px;
+  }
+
+  .traits-interests-mf h4, 
+  .goals-aspirations-mf h4 {
+    font-size: 20px;
+  }
+
+  .traits-interests-mf p, 
+  .goals-aspirations-mf p {
+    font-size: 14px;
+  }
+}
 
 
 /*------/ Comments /------*/
